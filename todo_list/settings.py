@@ -18,10 +18,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
+    "todo-list-kv0u.onrender.com",
 ]
 
 INTERNAL_IPS = [
     "127.0.0.1",
+    "todo-list-kv0u.onrender.com",
 ]
 
 # Application definition
