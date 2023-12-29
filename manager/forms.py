@@ -14,7 +14,7 @@ class TaskForm(forms.ModelForm):
         widget=forms.DateTimeInput,
         required=False,
     )
-    
+
     class Meta:
         model = Task
-        fields = ["content", "deadline", "tags"]
+        fields = ['content', 'deadline', 'tags']
